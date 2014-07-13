@@ -1,0 +1,3 @@
+SANITY_VERSION 1
+TMPDIR /home/shun/workspace/yocto/rpi/daisy/yp-rpi-bsp/build-rpi/tmp
+SSTATE_DIR /home/shun/workspace/yocto/rpi/daisy/yp-rpi-bsp/build-rpi/sstate-cache

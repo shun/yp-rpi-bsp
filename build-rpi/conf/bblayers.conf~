@@ -1,0 +1,17 @@
+# LAYER_CONF_VERSION is increased each time build/conf/bblayers.conf
+# changes incompatibly
+LCONF_VERSION = "6"
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  /home/shun/workspace/yocto/rpi/daisy/sources/poky/meta \
+  /home/shun/workspace/yocto/rpi/daisy/sources/poky/meta-yocto \
+  /home/shun/workspace/yocto/rpi/daisy/sources/poky/meta-yocto-bsp \
+  /home/shun/workspace/yocto/rpi/daisy/sources/meta-raspberrypi \
+  "
+BBLAYERS_NON_REMOVABLE ?= " \
+  /home/shun/workspace/yocto/rpi/daisy/sources/poky/meta \
+  /home/shun/workspace/yocto/rpi/daisy/sources/poky/meta-yocto \
+  "
