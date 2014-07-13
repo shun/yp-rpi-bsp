@@ -5,7 +5,7 @@ if [ ! -e $1 ]; then
 	echo ""
 	echo "### error ###"
 	echo "   image file doesn't exist"
-	echo "   path : $1"
+	echo "   path : \"$1\""
 	echo ""
 	echo ""
 	exit
